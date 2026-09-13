@@ -29,10 +29,10 @@ model.pkl is the pretrained model on the mnist dataset
 Number_draw.py is is to test the model :<br />
 with the mouse you can draw a number and it will show the prediction of the model<br />
 press any key on the keyboard to clear the screen<br />
-it use some preprossecing to mimic mnist prepossecing, and to be resitent to translation and scaling<br />
+it use some preprossecing to mimic mnist prepossecing, and to be resitent to translation and scaling the image on the top left corner is what's being fed in the Neural Network<br />
 
 NN_Numpy_train.py train the model it uses:<br />
-mnist_test.csv, to load it it's take a while, so it will create a pkl file of the inputs automaticly<br />
+mnist_test.csv, to load it it's take a while, so it will create a pkl file of the inputs automaticly<br N/>
 IMPORTANT:<br />
 it also uses mnist_train.csv, but it was to big to fit here, but you can find it on kaggle : https://www.kaggle.com/datasets/oddrationale/mnist-in-csv, or by other mean<br />
 like mnist_test.csv it also create a pkl file for faster loading<br />
