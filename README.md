@@ -37,7 +37,7 @@ IMPORTANT:<br />
 it also uses mnist_train.csv, but it was to big to fit here, but you can find it on kaggle : https://www.kaggle.com/datasets/oddrationale/mnist-in-csv, or by other mean<br />
 like mnist_test.csv it also create a pkl file for faster loading<br />
 while training you can quit it at any time, but prefferably after it prints : 'model saved' to avoid corruption of the model<br />
-when you relauch the file, it will resume wwhere it left off<br />
+when you relauch the file, it will resume where it left off<br />
 
 if you want to use it for an other dataset you will need to do :__
 1) delete model.pkl or rename it__
